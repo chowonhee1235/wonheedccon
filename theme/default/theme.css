@@ -7,10 +7,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 @font-face {
-  font-family: 'SeoulNamsan';
+  font-family: 'nanumsq';
   font-style: regular;
   font-weight: 300;
-  src: local('서울남산체 L'), url('../_shared/fonts/SeoulNamsanL.otf');
+  src: local('나눔고딕'), url('../_shared/fonts/nanumsq.ttf');
 }
 @font-face {
   font-family: 'SeoulNamsan';
@@ -27,7 +27,7 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: 'Lato', 'SeoulNamsan', sans-serif;
+  font-family: 'Lato', 'nanumsq', sans-serif;
 }
 body {
   position: absolute;
@@ -46,7 +46,7 @@ body {
   margin: 0.25rem 0;
   padding: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.125);
+  background: rgba(0, 0, 0, 0.55);
   text-shadow: 0 0 0.25rem #000, 0 0 0.125rem #000, 0 0 0.125rem #000, 0 0 0.125rem #000;
   position: relative;
   overflow: hidden;
@@ -58,6 +58,7 @@ body {
   background: rgba(0, 0, 0, 0.125);
   display: flex;
   z-index: 10;
+  display: none;/**//**//**/
 
 }
 .chat_nickname_box {
@@ -107,7 +108,7 @@ body {
   height: 2rem;
 }
 .dccon {
-  height: 6.25rem;
+  height: 7.40rem;
 }
 
 /* Special Cases */
